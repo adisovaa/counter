@@ -1,0 +1,74 @@
+.app {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10%;
+}
+
+.right, .left {
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.intr, .set {
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.set {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.max_value, .start_value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+
+.max_value_text {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.btn_set {
+    width: 100px;
+    height: 30px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.value {
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: cadetblue;
+}
+
+.btns {
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
